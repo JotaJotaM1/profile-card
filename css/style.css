@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+  height: 100vh;
   font-family: "Kumbh Sans", sans-serif;
   padding: 8.3% 0;
   background: url("../img/bg-pattern-top.svg") -350px -550px no-repeat,
