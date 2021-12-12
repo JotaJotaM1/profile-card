@@ -85,6 +85,7 @@ span {
   }
 
   .container {
+    height: 100vh;
     padding: 14% 0;
     background: url("../img/bg-pattern-top.svg") -700px -600px no-repeat,
       url("../img/bg-pattern-bottom.svg") 100px 280px no-repeat;
