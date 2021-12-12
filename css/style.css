@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 8.3% 0;
+  background: url("../img/bg-pattern-top.svg") -350px -550px no-repeat,
+    url("../img/bg-pattern-bottom.svg") 700px 350px no-repeat;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.sectiongeneral {
+  margin: 0 35%;
+  width: 375px;
+  background-color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.backcard {
+  width: 375px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.containerface {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40px;
+}
+.faceperfil {
+  border-radius: 100%;
+  top: -50px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  position: relative;
+}
+h1 {
+  color: hsl(229, 23%, 23%);
+}
+
+.containertwo {
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: hsl(0, 0%, 80%);
+}
+
+.containerthree {
+  display: flex;
+  justify-content: space-around;
+}
+.textcontaithree {
+  font-size: 13px;
+  text-align: center;
+  color: hsl(227, 10%, 46%);
+  margin: 0 0 40px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: hsl(229, 23%, 23%);
+}
+
+p,
+span {
+  color: hsl(227, 10%, 46%);
+  font-weight: lighter;
+}
+
+@media (max-width: 480px) {
+  .sectiongeneral {
+    margin: 1% 1%;
+  }
+}
