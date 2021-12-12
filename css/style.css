@@ -81,6 +81,13 @@ span {
 
 @media (max-width: 480px) {
   .sectiongeneral {
-    margin: 1% 1%;
+    margin: 0% auto;
+  }
+
+  .container {
+    padding: 14% 0;
+    background: url("../img/bg-pattern-top.svg") -700px -600px no-repeat,
+      url("../img/bg-pattern-bottom.svg") 100px 280px no-repeat;
+    background-color: hsl(185, 75%, 39%);
   }
 }
